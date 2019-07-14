@@ -1,0 +1,10 @@
+127.0.0.1 - - [11/Jul/2019:13:02:35 +0900] "GET / HTTP/1.1" 404 1099
+0:0:0:0:0:0:0:1 - - [11/Jul/2019:13:02:40 +0900] "GET /01_FirstWeb/helloworld.jsp HTTP/1.1" 200 169
+0:0:0:0:0:0:0:1 - - [11/Jul/2019:13:03:22 +0900] "GET /01_FirstWeb/helloworld.jsp HTTP/1.1" 200 169
+0:0:0:0:0:0:0:1 - - [11/Jul/2019:13:03:23 +0900] "GET /favicon.ico HTTP/1.1" 404 1110
+0:0:0:0:0:0:0:1 - - [11/Jul/2019:13:08:11 +0900] "GET /01_FirstWeb/helloworld.jsp HTTP/1.1" 200 169
+127.0.0.1 - - [11/Jul/2019:13:14:16 +0900] "GET / HTTP/1.1" 404 1099
+0:0:0:0:0:0:0:1 - - [11/Jul/2019:13:14:19 +0900] "GET /02_GetPost/join.jsp HTTP/1.1" 200 1292
+0:0:0:0:0:0:0:1 - - [11/Jul/2019:13:14:34 +0900] "GET /02_GetPost/JoinOk?name=dddd&id=11&pw=11&hobby=reading&hobby=cooking&major=design&region=daejeon HTTP/1.1" 200 183
+0:0:0:0:0:0:0:1 - - [11/Jul/2019:13:14:37 +0900] "GET /02_GetPost/JoinOk?name=dddd&id=11&pw=11&hobby=reading&hobby=cooking&major=design&region=daejeon HTTP/1.1" 200 183
+0:0:0:0:0:0:0:1 - - [11/Jul/2019:13:14:40 +0900] "GET /02_GetPost/JoinOk?name=dddd&id=11&pw=&hobby=reading&hobby=cooking&major=design&region=daejeon HTTP/1.1" 200 181
