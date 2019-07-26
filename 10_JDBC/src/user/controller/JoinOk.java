@@ -54,7 +54,7 @@ public class JoinOk extends HttpServlet {
 		int i = dao.join(vo);
 		
 		if (i == 1) {
-			response.sendRedirect("user_select_all.jsp");
+			response.sendRedirect("join_result.jsp");
 		} else {
 			response.sendRedirect("join.jsp");
 		}

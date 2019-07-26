@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+<h1> 회원 가입 페이지</h1>
 	<form action = "JoinOk" method = "post">
 		이름: <input type = "text" name = "name" size = "10"><br>
 		아이디: <input type = "text" name = "id" size = "10"><br>
